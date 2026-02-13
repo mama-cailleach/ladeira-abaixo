@@ -1,0 +1,8 @@
+name=Ladeira Abaixo
+author=doppelgangers!
+description=Plummet downhill on your board and chase that high score.
+bundleID=com.diy.ladeira-abaixo
+version=1.0.0
+buildNumber=1
+imagePath=assets/launcher/
+launchSoundPath=assets/launcher/sound.wav
