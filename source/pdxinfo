@@ -1,7 +1,7 @@
 name=Ladeira Abaixo
 author=doppelgangers!
-description=Plummet downhill on your board and chase that high score.
-bundleID=com.diy.ladeira-abaixo
+description=Plummet on your skateboard and compete in São Paulo's newest downhill competition in Ladeira Abaixo to go as far as you can! 
+bundleID=com.dpplgngrs.ladeira-abaixo
 version=1.0.0
 buildNumber=1
 imagePath=assets/launcher/
