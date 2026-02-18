@@ -1,22 +1,20 @@
-# Ladeira Abaixo
+# 🛹 Ladeira Abaixo
 
 Hullo!
 
-Welcome to the repo of our game: Ladeira Abaixo. A sort of endless runner where you try to avoid crashing while going downhill on the streets of São Paulo sitting on a skateboard. 
+Welcome to the repo of the Playdate game Ladeira Abaixo. An endless runner where you try to avoid crashing while going downhill on the streets of São Paulo on your skateboard. 
 
-This game built with **Noble Engine** - a Lua-based framework that makes developing for the Playdate handheld console much easier.
+This game built with **[Noble Engine](https://github.com/NobleRobot/NobleEngine)** - a Lua-based framework that makes developing for the Playdate handheld console much easier. Go check the engine if you're interested in making Playdate games! 
 
-Below is the main structure of the project. Hopefully to give an overview of how the game is set up and working.
-
-For more information and to play the game, check the itch page and other links. 
+Below is the main structure of the project to give an overview of how the game is set up and working. For more information and to play the game, check the [itch page](https://vfiaca.itch.io/ladeira-abaixo) and other links at the bottom of the readme. 
 
 ---
 
-## Source Folder Overview
+## 🗃️ Source Folder Overview
 
 ```
 source/
-├── main.lua              # Game entry point - starts everything up
+├── main.lua             # Game entry point - starts everything up
 ├── pdxinfo              # Game metadata (name, author, version)
 ├── assets/              # All visual and audio content
 ├── classes/             # Game objects and their behaviors
@@ -28,7 +26,7 @@ source/
 
 ---
 
-## Main Entry Point
+## ➡️ Main Entry Point
 
 **`main.lua`**
 - Initializes Noble Engine
@@ -54,7 +52,7 @@ assets/
 
 ---
 
-## Scenes
+## 📑 Scenes
 
 Different screens and game states:
 
@@ -74,7 +72,7 @@ Each scene handles its own:
 
 ---
 
-## Classes
+## 🏛️ Classes
 
 Game objects organized by type:
 
@@ -99,7 +97,7 @@ Visual elements that are the Dressings class:
 
 ---
 
-## Systems
+## 🧮 Systems
 
 Managers that handle core gameplay:
 
@@ -114,7 +112,7 @@ These work together to keep the game running smoothly.
 
 ---
 
-## Utilities
+## 🌐 Utilities
 
 Helper code that makes everything else easier:
 
@@ -127,7 +125,7 @@ Tweak values in `GameConstants.lua` to change gameplay feel!
 
 ---
 
-## Libraries
+## 📚 Libraries
 
 **Noble Engine** lives here as a git submodule.
 
@@ -144,18 +142,15 @@ https://noblerobot.github.io/NobleEngine/index.html
 
 ---
 
-## Credits
+## 💳 Credits
 
 ### Game by
 
 [mama-cailleach](https://github.com/mama-cailleach) & [vfiaca](https://github.com/vfiaca)
 
-### Links
+### 🔗 Links
 
 [Game Page](https://vfiaca.itch.io/ladeira-abaixo)
-
 [Soundtrack](https://ladeira-abaixo.bandcamp.com/album/ladeira-abaixo)
-
 [Noble Engine](https://github.com/NobleRobot/NobleEngine)
-
 [Playdate](https://play.date) by [Panic](https://panic.com/)
